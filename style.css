@@ -18,9 +18,27 @@ html {
     margin-right:auto;
 }
 
-.navMenu {
-    width:100%;
-    max-height:100px;
+.button {
+    background-color: #3f5e52;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    width:45%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 10px 0px;
+    border-radius:50px;
+    transition: width 0.2s ease-in-out;
+}
+
+
+.button:hover {
+    background-color: #4c7264;
+    cursor:pointer;
+    width:47%;
 }
 
 .contentLeft {
